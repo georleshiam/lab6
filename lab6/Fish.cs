@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal class Fish
+    public abstract class Fish: Animal
     {
+        public string stripeColor;
+        public int gillSize;
     }
 }

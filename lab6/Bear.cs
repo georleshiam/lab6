@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal class Bear
+    internal class Bear: Mammal , IWalks
     {
+        public int legs { get; set; }
+        public string furColor;
     }
 }

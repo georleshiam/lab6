@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal interface IWalks
+    public interface IWalks
     {
+        public int legs { get; set; }
+
+        public void Walk()
+        {
+            Console.WriteLine
+        }
     }
 }

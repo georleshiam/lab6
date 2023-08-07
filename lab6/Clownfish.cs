@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal class Clownfish
+    public class Clownfish: Fish, ISwim
     {
+        public bool inWater { get; set; }
+        public void Swim ()
+        {
+
+        }
     }
 }

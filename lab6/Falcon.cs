@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal class Falcon
+    internal class Falcon : Bird
     {
+        public int wingSpan;
+        public string color;
     }
 }

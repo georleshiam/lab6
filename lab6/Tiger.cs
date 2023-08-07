@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal class Tiger
+    public class Tiger
     {
+        public string stripeColor;
+        public string clawSize;
     }
 }

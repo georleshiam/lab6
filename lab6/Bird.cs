@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal class Bird
+   public abstract class Bird: Animal
     {
+        public int wingSpan;
+        public string color;
     }
+
+    public override void Eat()
+    {
+        Console.WriteLine(" Birds eat worms.")
+    }
+
+
+
+
+
+
 }

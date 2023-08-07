@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace lab6
 {
-    internal class Mammal
+    public abstract class Mammal: Animal
     {
+        public string furColor;
+
+        public override void Move()
+        {
+            Console.Write("Walk");
+        }
+
+
+        public override void Eat()
+        {
+            Console.Write("Animals eat meat! ")
+        }
+
+        public override void Drink()
+        {
+            Console.Write("Sip sip through beak;")
+        }
     }
 }
